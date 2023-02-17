@@ -91,3 +91,5 @@ def delete_contact(names, phone_numbers):
         del names[index]
         del phone_numbers[index]
         print("Contact deleted successfully.")
+    else:
+        print("Name Not Found")
