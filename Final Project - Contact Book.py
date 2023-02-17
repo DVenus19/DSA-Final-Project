@@ -86,3 +86,4 @@ def search_contact(names, phone_numbers):
 
 def delete_contact(names, phone_numbers):
     delete_name = input("Enter name to delete: ")
+    if delete_name in names:
