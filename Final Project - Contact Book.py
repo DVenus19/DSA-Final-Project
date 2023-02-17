@@ -42,3 +42,4 @@ def insertion_sort(arr):
         arr[j+1] = key
 
 def quick_sort(arr, low, high):
+    if low < high:
