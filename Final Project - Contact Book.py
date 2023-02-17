@@ -81,3 +81,5 @@ def search_contact(names, phone_numbers):
     if search_term in names:
         index = names.index(search_term)
         print("Name: {}, Phone Number: {}".format(search_term, phone_number))
+    else:
+        print("Name Not Found")
