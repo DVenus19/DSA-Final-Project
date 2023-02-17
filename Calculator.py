@@ -16,3 +16,5 @@ entry.grid(row=0, column=0, columnspan=3, ipady=2, pady=2)
 
 def myclick(number):
     entry.insert(tk.END, number)
+
+def equal():
