@@ -74,3 +74,4 @@ def add_contact(names, phone_numbers):
     phone_number = int(input("Enter phone number: "))
     names.append(name)
     phone_numbers.append(phone_number)
+    print("Contact added successfully.")
