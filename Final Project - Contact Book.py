@@ -120,3 +120,11 @@ while True:
     elif choice == 3:
         delete_contact(names, phone_numbers)
         print_directory(names, phone_numbers)
+
+    elif choice == 4:
+        merge_sort(names)
+        print_directory(names, phone_numbers)
+
+    elif choice == 5:
+        insertion_sort(names)
+        print_directory(names, phone_numbers)
