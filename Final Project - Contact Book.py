@@ -74,7 +74,7 @@ def add_contact(names, phone_numbers):
     phone_number = int(input("Enter phone number: "))
     names.append(name)
     phone_numbers.append(phone_number)
-    print("Contact added successfully.")
+    print("Contact Added Successfully.")
 
 def search_contact(names, phone_numbers):
     search_term = input("Enter search term: ")
@@ -82,7 +82,7 @@ def search_contact(names, phone_numbers):
         index = names.index(search_term)
         print("Name: {}, Phone Number: {}".format(search_term, phone_number))
     else:
-        print("Name Not Found")
+        print("Name not Found,please try again")
 
 def delete_contact(names, phone_numbers):
     delete_name = input("Enter name to delete: ")
@@ -90,7 +90,7 @@ def delete_contact(names, phone_numbers):
         index = names.index(delete_name)
         del names[index]
         del phone_numbers[index]
-        print("Contact deleted successfully.")
+        print("Contact Deleted Successfully.")
     else:
         print("Name Not Found")
 
@@ -108,7 +108,7 @@ print_directory(names, phone_numbers)
 
 while True:
     print("Menu Options:\n1. Add Contact\n2. Search Contact\n3. Delete Contact\n4. Sort by Merge Sort\n5. Sort by Insertion Sort\n6. Sort by Quick Sort\n7. Sort by Bubble Sort\n8. Exit")
-    choice = int(input("Enter your choice: "))
+    choice = int(input("Enter your Choice: "))
 
     if choice == 1:
         add_contact(names, phone_numbers)
@@ -138,7 +138,7 @@ while True:
         print_directory(names, phone_numbers)
 
     elif choice == 8:
-        print("Exiting program...")
+        print("Thank You!, Exiting program...")
         break
 
     else:
