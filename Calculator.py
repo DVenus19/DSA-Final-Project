@@ -22,3 +22,5 @@ def equal():
         y = str(eval(entry.get()))
         entry.delete(0, tk.END)
         entry.insert(0, y)
+    except:
+        tkinter.messagebox.showinfo("Error", "Syntax Error")
