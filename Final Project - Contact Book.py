@@ -1,6 +1,6 @@
 print("^^^^^^^^^^^^^Donasco,Venus M.^^^^^^^^^^^^^")
 print("^^^^^^^^^^^^^BSCOE 2-2^^^^^^^^^^^^^")
-print("^^^^^^^^^^^^^Final Project - Calculator using Tkinter^^^^^^^^^^^^^")
+print("^^^^^^^^^^^^^Final Project - Contact Book^^^^^^^^^^^^^")
 
 def merge_sort(arr):
     if len(arr) > 1:
@@ -68,3 +68,6 @@ def print_directory(names, phone_numbers):
     print("\nName\t\t\tPhone Number\n")
     for i in range(len(names)):
         print("{}\t\t\t{}".format(names[i], phone_numbers[i]))
+
+def add_contact(names, phone_numbers):
+    name = input("Enter name: ")
