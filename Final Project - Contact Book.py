@@ -18,3 +18,4 @@ def merge_sort(arr):
                 arr[k] = left_half[i]
                 i += 1
             else:
+                arr[k] = right_half[j]
