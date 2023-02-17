@@ -83,3 +83,6 @@ def search_contact(names, phone_numbers):
         print("Name: {}, Phone Number: {}".format(search_term, phone_number))
     else:
         print("Name Not Found")
+
+def delete_contact(names, phone_numbers):
+    delete_name = input("Enter name to delete: ")
