@@ -72,3 +72,4 @@ def print_directory(names, phone_numbers):
 def add_contact(names, phone_numbers):
     name = input("Enter name: ")
     phone_number = int(input("Enter phone number: "))
+    names.append(name)
