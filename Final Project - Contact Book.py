@@ -103,3 +103,5 @@ for i in range(num):
     phone_number = int(input("Phone Number: "))
     names.append(name)
     phone_numbers.append(int(phone_number))
+
+print_directory(names, phone_numbers)
