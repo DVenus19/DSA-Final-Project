@@ -136,3 +136,10 @@ while True:
     elif choice == 7:
         bubble_sort(names)
         print_directory(names, phone_numbers)
+
+    elif choice == 8:
+        print("Exiting program...")
+        break
+
+    else:
+        print("Invalid choice. Please enter a valid choice.")
