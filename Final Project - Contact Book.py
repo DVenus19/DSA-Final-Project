@@ -128,3 +128,11 @@ while True:
     elif choice == 5:
         insertion_sort(names)
         print_directory(names, phone_numbers)
+
+    elif choice == 6:
+        quick_sort(names, 0, len(names)-1)
+        print_directory(names, phone_numbers)
+
+    elif choice == 7:
+        bubble_sort(names)
+        print_directory(names, phone_numbers)
