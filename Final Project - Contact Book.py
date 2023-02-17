@@ -99,3 +99,7 @@ phone_numbers = []
 num = 3
 
 for i in range(num):
+    name = input("Name: ")
+    phone_number = int(input("Phone Number: "))
+    names.append(name)
+    phone_numbers.append(int(phone_number))
