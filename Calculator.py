@@ -8,4 +8,5 @@ from tkinter.constants import SUNKEN
 
 
 window = tk.Tk()
-window.title('Calculator-FinalProjct')
+window.title('Calculator-FinalProject')
+frame = tk.Frame(master=window, bg="skyblue", padx=10)
