@@ -18,3 +18,5 @@ def myclick(number):
     entry.insert(tk.END, number)
 
 def equal():
+    try:
+        y = str(eval(entry.get()))
