@@ -8,3 +8,4 @@ from tkinter.constants import SUNKEN
 
 
 window = tk.Tk()
+window.title('Calculator-FinalProjct')
