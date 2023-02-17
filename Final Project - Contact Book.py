@@ -109,3 +109,7 @@ print_directory(names, phone_numbers)
 while True:
     print("Menu Options:\n1. Add Contact\n2. Search Contact\n3. Delete Contact\n4. Sort by Merge Sort\n5. Sort by Insertion Sort\n6. Sort by Quick Sort\n7. Sort by Bubble Sort\n8. Exit")
     choice = int(input("Enter your choice: "))
+
+    if choice == 1:
+        add_contact(names, phone_numbers)
+        print_directory(names, phone_numbers)
