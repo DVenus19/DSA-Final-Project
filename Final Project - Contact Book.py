@@ -10,3 +10,5 @@ def merge_sort(arr):
 
         merge_sort(left_half)
         merge_sort(right_half)
+
+        i = j = k = 0
