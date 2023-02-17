@@ -44,3 +44,4 @@ def insertion_sort(arr):
 def quick_sort(arr, low, high):
     if low < high:
         pivot_index = partition(arr, low, high)
+        quick_sort(arr, low, pivot_index - 1)
