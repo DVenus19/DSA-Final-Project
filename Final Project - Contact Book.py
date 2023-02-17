@@ -23,3 +23,4 @@ def merge_sort(arr):
             k += 1
 
         while i < len(left_half):
+            arr[k] = left_half[i]
