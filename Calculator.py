@@ -77,3 +77,6 @@ button_div.grid(row=6, column=0, pady=2)
 button_clear = tk.Button(master=frame, text="clear",
                          padx=15, pady=5, width=12, command=clear)
 button_clear.grid(row=6, column=1, columnspan=2, pady=2)
+
+button_equal = tk.Button(master=frame, text="=", padx=15,
+                         pady=5, width=9, command=equal)
