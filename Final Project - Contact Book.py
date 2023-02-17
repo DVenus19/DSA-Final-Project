@@ -17,3 +17,4 @@ def merge_sort(arr):
             if left_half[i] < right_half[j]:
                 arr[k] = left_half[i]
                 i += 1
+            else:
