@@ -58,3 +58,4 @@ def partition(arr, low, high):
     return i + 1
 
 def bubble_sort(arr):
+    n = len(arr)
