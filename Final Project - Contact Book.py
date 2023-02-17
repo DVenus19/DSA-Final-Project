@@ -19,3 +19,4 @@ def merge_sort(arr):
                 i += 1
             else:
                 arr[k] = right_half[j]
+                j += 1
