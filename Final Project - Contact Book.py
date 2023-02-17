@@ -65,3 +65,4 @@ def bubble_sort(arr):
                 arr[j], arr[j+1] = arr[j+1], arr[j]
 
 def print_directory(names, phone_numbers):
+    print("\nName\t\t\tPhone Number\n")
