@@ -61,3 +61,7 @@ button_0.grid(row=4, column=1, pady=2)
 button_add = tk.Button(master=frame, text="+", padx=15,
                        pady=5, width=3, command=lambda: myclick('+'))
 button_add.grid(row=5, column=0, pady=2)
+
+button_subtract = tk.Button(
+    master=frame, text="-", padx=15, pady=5, width=3, command=lambda: myclick('-'))
+button_subtract.grid(row=5, column=1, pady=2)
