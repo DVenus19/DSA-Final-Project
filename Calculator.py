@@ -21,3 +21,4 @@ def equal():
     try:
         y = str(eval(entry.get()))
         entry.delete(0, tk.END)
+        entry.insert(0, y)
