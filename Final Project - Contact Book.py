@@ -88,3 +88,6 @@ def delete_contact(names, phone_numbers):
     delete_name = input("Enter name to delete: ")
     if delete_name in names:
         index = names.index(delete_name)
+        del names[index]
+        del phone_numbers[index]
+        print("Contact deleted successfully.")
