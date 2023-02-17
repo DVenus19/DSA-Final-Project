@@ -26,3 +26,4 @@ def equal():
         tkinter.messagebox.showinfo("Error", "Syntax Error")
 
 def clear():
+    entry.delete(0, tk.END)
