@@ -8,4 +8,8 @@ changed everything in the calculator
 customized and reworked
 much integrated since its now Version 2
 
-Final Project 2 - Attendance Maker
+Final Project 2 - Contact Book Python Program 
+Original code - https://www.studytonight.com/python-projects/contact-book-python-project?fbclid=IwAR1O_pXrJgE86UqZJA6xDkEawyBf290IFA__kxcZp0g93CES8-pp5T3rYHM
+
+Modifications: 
+to be added later
