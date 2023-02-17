@@ -30,3 +30,4 @@ def clear():
 
 button_1 = tk.Button(master=frame, text='1', padx=15,
                      pady=5, width=3, command=lambda: myclick(1))
+button_1.grid(row=1, column=0, pady=2)
