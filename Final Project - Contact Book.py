@@ -49,3 +49,4 @@ def quick_sort(arr, low, high):
 
 def partition(arr, low, high):
     pivot_value = arr[high]
+    i = low - 1
