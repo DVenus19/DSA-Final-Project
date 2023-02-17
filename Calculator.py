@@ -34,3 +34,5 @@ button_1.grid(row=1, column=0, pady=2)
 button_2 = tk.Button(master=frame, text='2', padx=15,
                      pady=5, width=3, command=lambda: myclick(2))
 button_2.grid(row=1, column=1, pady=2)
+button_3 = tk.Button(master=frame, text='3', padx=15,
+                     pady=5, width=3, command=lambda: myclick(3))
