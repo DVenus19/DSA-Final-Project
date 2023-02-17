@@ -113,3 +113,10 @@ while True:
     if choice == 1:
         add_contact(names, phone_numbers)
         print_directory(names, phone_numbers)
+
+    elif choice == 2:
+        search_contact(names, phone_numbers)
+
+    elif choice == 3:
+        delete_contact(names, phone_numbers)
+        print_directory(names, phone_numbers)
