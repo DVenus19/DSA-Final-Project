@@ -49,3 +49,5 @@ button_6.grid(row=2, column=2, pady=2)
 button_7 = tk.Button(master=frame, text='7', padx=15,
                      pady=5, width=3, command=lambda: myclick(7))
 button_7.grid(row=3, column=0, pady=2)
+button_8 = tk.Button(master=frame, text='8', padx=15,
+                     pady=5, width=3, command=lambda: myclick(8))
