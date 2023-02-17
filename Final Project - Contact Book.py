@@ -93,3 +93,7 @@ def delete_contact(names, phone_numbers):
         print("Contact deleted successfully.")
     else:
         print("Name Not Found")
+
+names = []
+phone_numbers = []
+num = 3
