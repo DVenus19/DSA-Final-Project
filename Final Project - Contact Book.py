@@ -97,3 +97,5 @@ def delete_contact(names, phone_numbers):
 names = []
 phone_numbers = []
 num = 3
+
+for i in range(num):
