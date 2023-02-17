@@ -77,3 +77,4 @@ def add_contact(names, phone_numbers):
     print("Contact added successfully.")
 
 def search_contact(names, phone_numbers):
+    search_term = input("Enter search term: ")
