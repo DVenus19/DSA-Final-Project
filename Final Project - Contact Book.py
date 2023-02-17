@@ -75,3 +75,5 @@ def add_contact(names, phone_numbers):
     names.append(name)
     phone_numbers.append(phone_number)
     print("Contact added successfully.")
+
+def search_contact(names, phone_numbers):
