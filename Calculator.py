@@ -10,3 +10,4 @@ from tkinter.constants import SUNKEN
 window = tk.Tk()
 window.title('Calculator-FinalProject')
 frame = tk.Frame(master=window, bg="skyblue", padx=10)
+frame.pack()
