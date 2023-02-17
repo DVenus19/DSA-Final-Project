@@ -79,3 +79,4 @@ def add_contact(names, phone_numbers):
 def search_contact(names, phone_numbers):
     search_term = input("Enter search term: ")
     if search_term in names:
+        index = names.index(search_term)
