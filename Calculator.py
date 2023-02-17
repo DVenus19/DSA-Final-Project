@@ -73,3 +73,6 @@ button_multiply.grid(row=5, column=2, pady=2)
 button_div = tk.Button(master=frame, text="/", padx=15,
                        pady=5, width=3, command=lambda: myclick('/'))
 button_div.grid(row=6, column=0, pady=2)
+
+button_clear = tk.Button(master=frame, text="clear",
+                         padx=15, pady=5, width=12, command=clear)
